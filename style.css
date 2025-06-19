@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f9e6b7;
+  background-color: #97BC62;
 }
 
 .container {
@@ -75,7 +75,7 @@ form input {
 
 form button {
   height: 3rem;
-  background-color: #a0488b;
+  background-color: #2C5F2D;
   color: #fff;
   font-size: 1.15rem;
   cursor: pointer;
