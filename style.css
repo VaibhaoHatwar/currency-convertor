@@ -80,3 +80,39 @@ form button {
   font-size: 1.15rem;
   cursor: pointer;
 }
+
+/* For Mobile Responsive App */
+@media (max-width: 500px) {
+  .container {
+    width: 90vw;
+    padding: 1.5rem;
+    min-height: auto;
+  }
+
+  .dropdown {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .select-container {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  .dropdown i {
+    transform: rotate(90deg); /* Makes the arrow look better in vertical stack */
+  }
+
+  form input,
+  form button,
+  form select {
+    font-size: 1rem;
+    height: 2.8rem;
+  }
+
+  .msg {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
