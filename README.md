@@ -23,7 +23,7 @@ It allows users to convert one currency to another using **live exchange rates**
 ---
 
 ## 🌐 Live Demo
-👉 [Click here to try it live](https://currency-convert.netlify.app)
+👉 [Click here to try it live](https://currency-covert.netlify.app/)
 
 ---
 
