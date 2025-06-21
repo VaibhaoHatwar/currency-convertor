@@ -1,44 +1,71 @@
-# 💱 Currency Converter
+# 💱 Currency Converter Web App
 
-A simple currency converter web app using HTML, CSS, and JavaScript. It fetches real-time exchange rates from a public API and allows users to convert between different currencies.
-
----
-
-## 🌟 Features
-
-- Live exchange rate conversion
-- From/To currency dropdowns
-- Auto-updated country flags
-- Default load: USD ➝ INR
+A simple currency converter built using **HTML**, **CSS**, and **Vanilla JavaScript**.  
+It allows users to convert one currency to another using **live exchange rates** and displays the **country flags** of selected currencies.
 
 ---
 
-## 🔧 Tech Used
-
-- HTML, CSS, JavaScript
-- Fetch API (Async/Await)
-- [Fawaz Currency API](https://github.com/fawazahmed0/currency-api)
-- [FlagsAPI](https://flagsapi.com)
-
----
-
-## 🚀 How to Run
-
-1. Clone or download this repo
-2. Open `index.html` in your browser
-3. Select currencies, enter amount, and click Convert
+## 🚀 Features
+- Real-time currency conversion using live exchange rates
+- Dropdowns with country flags for a better user experience
+- User-friendly input and output handling
+- Responsive UI (mobile-friendly)
 
 ---
 
-## 📁 Files
-
-- `index.html`
-- `style.css`
-- `script.js`
-- `countryList.js`
+## 🔧 Tech Stack
+- HTML5, CSS3
+- JavaScript (ES6)
+- APIs Used:
+  - 📈 [Exchange Rate API (Fawaz Ahmed)](https://github.com/fawazahmed0/currency-api)  
+  - 🏳️ [Country Flags API (flagcdn)](https://flagcdn.com)
 
 ---
 
-## ✍️ Author
+## 🌐 Live Demo
+👉 [Click here to try it live](https://currency-convert.netlify.app)
 
-**Vaibhao Hatwar**
+---
+
+## 📁 Project Structure
+
+currency-convertor/<br>
+├── index.html <br>
+├── style.css <br>
+├── script.js <br>
+├── README.md <br>
+└── screenshot.png
+
+---
+
+## 📸 Screenshot
+
+![Currency Converter Screenshot](./screenshot.png)
+
+---
+
+## 📚 What I Learned
+- DOM manipulation and event handling
+- Fetching and rendering data from multiple public APIs
+- Dynamically updating UI using JavaScript
+- Deploying static sites on Netlify
+- Working with JSON data and async logic
+
+---
+
+## 📦 Future Improvements
+- Add a loading spinner while fetching data
+- Display historical exchange rate trends
+- Add dark mode toggle
+- Improve accessibility (ARIA roles, keyboard nav)
+
+---
+
+## 👨‍💻 Author
+
+**Vaibhao Hatwar**  
+💼 Aspiring Full Stack Web Developer  
+📧 [vaibhaohatwar.works@gmail.com](mailto:vaibhaohatwar.works@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/vaibhaohatwar) | [GitHub](https://github.com/VaibhaoHatwar)
+
+---
